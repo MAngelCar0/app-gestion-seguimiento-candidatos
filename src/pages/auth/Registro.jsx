@@ -22,7 +22,7 @@ function Registro() {
               </div>
               <div>
                 <label class="block mb-2 text-sm font-medium text-gray-900">
-                  Correo Electrinico
+                  Correo Electronico
                 </label>
                 <input class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="••••••••" id="confirmPassword" type="password"/>
               </div>
@@ -36,7 +36,7 @@ function Registro() {
               <button class="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white" type="submit">
                 Crear una Cuenta
               </button>
-              <Link>¿Ya tiene una cuenta, Inicie Sesion</Link>
+              <Link to="/login">¿Ya tiene una cuenta, Inicie Sesion</Link>
           </div>
         </div>
       </div></form>
